@@ -1,5 +1,7 @@
 **使用Selenium分析歌单评论**
 
+<img src="https://github.com/jm199504/Selenium-WordCloud/blob/master/images/music.png" />
+
 **涉及内容：**
 
 1. 使用selenium 爬取网易云音乐歌单的评论内容
@@ -54,8 +56,6 @@ from selenium import webdriver
 
 **Jieba**
 
-三、jieba及词云制作
-
 jieba 基于Python的中文分词工具,简单地描述一下特点：
 
 - 支持三种分词模式：
@@ -72,5 +72,10 @@ jieba 基于Python的中文分词工具,简单地描述一下特点：
 
 - 附上官网：https://amueller.github.io/word_cloud
 
+**数据一览**
+
+<img src="https://github.com/jm199504/Selenium-WordCloud/blob/master/images/db.png" width = "500" />
+
 **效果图**
 
+<img src="https://github.com/jm199504/Selenium-WordCloud/blob/master/images/result.png" width = "500" />
