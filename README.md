@@ -1,6 +1,6 @@
 **使用Selenium分析歌单评论**
 
-<img src="https://github.com/jm199504/Selenium-WordCloud/blob/master/images/music.png" width = "200"/>
+<img src="https://github.com/jm199504/Selenium-WordCloud/blob/master/images/music.png" width = "300"/>
 
 **涉及内容：**
 
@@ -53,9 +53,7 @@ from selenium import webdriver
 
 2. connect参数中charset为utf8mb4，而不是utf-8，使用utf-8存储过程中报错，原因来自于用户评论有表情包，而表情包只能存储为\\xF0的格式，mysql不能识别4个字节的utf8编码的字符，解决办法：将对应字符类型换成将对应的数据类型改为utf8mb4类型，同时连接类型也要改成utf8mb4_general_ci，注意mysql中对应表和字段字符设置utf8mb4，且在python代码连接中charset也要设置。
 
-**Jieba**
-
-jieba 基于Python的中文分词工具,简单地描述一下特点：
+**中文分词工具Jieba**
 
 - 支持三种分词模式：
 
