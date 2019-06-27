@@ -1,6 +1,6 @@
 **使用Selenium分析歌单评论**
 
-<img src="https://github.com/jm199504/Selenium-WordCloud/blob/master/images/music.png" />
+<img src="https://github.com/jm199504/Selenium-WordCloud/blob/master/images/music.png" width = "500"/>
 
 **涉及内容：**
 
